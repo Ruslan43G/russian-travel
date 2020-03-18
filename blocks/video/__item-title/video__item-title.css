@@ -1,0 +1,13 @@
+.video__item-title {
+    max-width: 322px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 39px;
+    color: #ffffff;
+    position: absolute;
+    top: 140px;
+    left: 30px;
+    z-index: 3;
+
+}

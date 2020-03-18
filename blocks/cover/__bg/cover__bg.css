@@ -1,0 +1,9 @@
+.cover__bg {
+    background-image: url(../../../images/cover/Image.png);
+    height: 594px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+}

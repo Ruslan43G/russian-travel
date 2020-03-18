@@ -1,0 +1,5 @@
+.comments__item {
+    max-width: 323px;
+    display: flex;
+    flex-direction: column;
+}
