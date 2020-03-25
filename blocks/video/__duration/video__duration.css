@@ -5,8 +5,11 @@ font-size: 12px;
 line-height: 13px;
 letter-spacing: 0.3em;
 color: #ffffff;
-position: absolute;
-top: 140px;
-left: 30px;
+position: relative;
 z-index: 2;
+margin: 0;
+/*margin: 5.875rem 0 0 1.875rem;*/
 }
+
+
+

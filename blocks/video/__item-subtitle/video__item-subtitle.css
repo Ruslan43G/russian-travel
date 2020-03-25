@@ -4,8 +4,15 @@
     font-size: 14px;
     line-height: 15px;
     color: #ffffff;
-    position: absolute;
-    top: 250px;
-    left: 30px;
+    position: relative;
     z-index: 4;
+    margin: 0;
+    /*margin: 1.125rem 0 0 1.875rem;*/
+}
+
+/* @media screen and (max-width: 768px) {
+    .video__item-subtitle {
+        margin: 0 0 0 24px;
+        
+    }
 }

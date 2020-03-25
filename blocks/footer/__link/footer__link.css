@@ -6,11 +6,29 @@
     text-decoration: none;
     list-style-type: none;
     color: white;
-    margin-right: 1rem;  
+    margin-right: 16px;  
 }
 
 
 .footer__link:hover {
     opacity: 0.7;
     transition: opacity 1s linear;
+}
+
+@media screen and (max-width: 768px) {
+    .footer__link {
+        font-size: 16px;
+        line-height: 27px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .footer__link {
+        margin: 0px 0px 32px 0px;
+       
+    }
+
+    .footer__link:last-of-type {
+        margin: 0 0 48px 0;
+    }
 }

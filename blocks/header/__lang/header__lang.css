@@ -3,6 +3,16 @@
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
-    line-height: 23px;
-    text-align: right;    
+    line-height: 24px;
+    text-align: right;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 375px) {
+    .header__lang {
+        font-size: 18px;
+        line-height: 96.82%;
+    }
 }

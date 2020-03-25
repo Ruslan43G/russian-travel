@@ -1,14 +1,13 @@
 .video__icon-play {
     width: 41px;
     height: 41px;
-    position: absolute;
-    top: 30px;
-    left: 30px;
-    z-index: 5;
+    position: relative;
+    z-index: 2;
+    
 }
 
-.video__icon-play:nth-of-type(2) {
-    position: absolute;
-    top: 30px;
-    left: 650px;
+/*@media screen and (max-width: 768px) {
+    .video__icon-play {
+        margin: 24px 0 0 17px;
+    }
 }

@@ -1,0 +1,15 @@
+@import url(./_none/header__link_none.css);
+
+.header__link {
+    height: 23px;
+    width: 30px;
+    color: white;   
+    margin-top: 20px;
+    
+}
+
+.header__link:hover {
+    opacity: 0.5;
+    transition: opacity 1s linear;
+}
+
