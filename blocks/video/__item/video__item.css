@@ -13,8 +13,15 @@
 
 
 .video__item:first-of-type {
-    background-image: url(../../../images/video/Image.png);
-    
+    background-image: url(../../../images/video/Image.png);    
+}
+
+.video__item:first-of-type:hover {
+    background-image: linear-gradient(
+          rgba(0, 0, 0, 0.8), 
+          rgba(0, 0, 0, 0.7)
+        ),
+        url(../../../images/video/Image.png);  
 }
 
 
@@ -23,9 +30,12 @@
        
 }
 
-.video__item:hover .video__item-bg {
-    opacity: 0.7;
-    transition: opacity 1s linear;
+.video__item:nth-child(2):hover {
+    background-image: linear-gradient(
+          rgba(0, 0, 0, 0.8), 
+          rgba(0, 0, 0, 0.8)
+        ),
+        url(../../../images/video/Image2.png);      
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {

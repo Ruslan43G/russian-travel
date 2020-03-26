@@ -33,6 +33,7 @@
          max-width: 288px;
          grid-template-columns: repeat(1, 288px);
          margin: 0 auto;
+         grid-gap: 8px;
          
     }
 }
