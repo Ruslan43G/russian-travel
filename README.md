@@ -21,4 +21,4 @@
 
 Для запуска проекта необходимо скачать все файлы из репозитория и запустить файл index.html
 
-сайт доступен по ссылке https://ruslan43g.github.io/russian-travel/
+сайт доступен по ссылке https://ruslan43g.github.io/russian-travel/index.html
